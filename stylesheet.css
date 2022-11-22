@@ -1,0 +1,185 @@
+* {box-sizing: border-box;}
+
+body {
+    background-color: grey;
+    color: #666;
+		font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+  margin-left: auto; margin-right: auto;
+  width: 80%;
+  min-width: 960px;
+  max-width: 2048px;
+  background-color: lightpink;
+  border: 1px solid pink;
+  box-shadow: 3px 3px 3px #333333;
+  background-image: linear-gradient(to bottom, pink, white);
+}
+
+header {
+  background-color: pink;
+  color: #fff;
+  height: 120px;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 3em;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:link{
+  color:white;
+}
+
+header a:hover {
+  color: red;
+}
+
+h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 3em;
+  letter-spacing: 0.25em;
+}
+nav {
+  float: left;
+	font-weight: bold;
+  font-size: 120%;
+  padding: 1.5em;
+  width: 160px;
+}
+nav a{
+  text-decoration: none;
+}
+
+nav a:link{
+  color: red;
+}
+
+
+
+nav a:hover{
+  color: #A52A2A;
+}
+
+main{
+  background-color: grey;
+  margin-left: 190px;
+  padding: 1px 20px 20px 30px;
+  display: block;
+  overflow: auto;
+  color: white;
+}
+
+main ul{
+  list-style-image: url(sugarcookies.png);
+}
+
+section{
+  float: left;
+  width: 50%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+
+
+h2 {
+  color: pink;
+  font-family: Georgia, "Times New Roman", serif; 
+  text-shadow: 1px 1px 1px #cccccc;
+}
+h3 {
+    color:pink;
+    font-family: Georgia, "Times New Roman", serif;
+}
+ul {
+    list-style-image: url(marker.gif);
+}
+
+footer {
+  margin-left: 190px;
+	font-size: 75%;
+	text-align: center;
+	font-style: italic;
+  font-family: Georgia, "Times New Roman", serif;
+  padding: 2em;
+  background-color: whitesmoke;
+}
+.cookies {
+  color: purple;
+	font-weight: bold;
+}
+#contact {
+	font-size: 90%;
+}
+
+#homehero{
+  margin-left: 190px;
+  height: 300px;
+  background-image: url(coast.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#yurthero{
+  margin-left: 190px;
+  height: 300px;
+  background-image: url(yurt.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#trailhero{
+  margin-left: 190px;
+  height: 300px;
+  background-image: url(trail.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+table {
+border-collapse: collapse;
+border: 2px solid #3399CC;
+}
+td, th{
+  padding: 0.5em;
+  border: 2px solid #3399CC;
+}
+td{
+  text-align: center;
+}
+.text{
+text-align: left;
+}
+tr:nth-child(odd) {
+  background-color: #BDDFF0;
+}
+
+h3{
+  text-align: left;
+}
+
+#special{
+clear: both;
+}
+
+label{
+  float: left;
+  display: block;
+  text-align: right;
+  width: 140px;
+  padding-right: 5px;
+}
+input{
+  display:block;
+  margin-bottom: 20px;
+}
+textarea {
+  display:block;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] { margin-left: 140px; }
